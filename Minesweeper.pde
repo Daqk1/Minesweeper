@@ -16,7 +16,7 @@ void setup ()
       buttons[r][c] = new MSButton(r, c);
 
 
-  for (int i = 0; i < 5; i ++) {
+  for (int i = 0; i < 50; i ++) {
     setMines();
   }
   for (int r = 0; r < NUM_ROWS; r++) {
